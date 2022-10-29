@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Running your app...",
+      "label": "Installing extensions and running your app...",
       "type": "shell",
-      "command": "kotlinc Hello.kt",
+      "command": "code-server --install-extension fwcd.kotlin --install-extension mathiasfrohlich.Kotlin --install-extension formulahendry.code-runner && kotlinc Hello.kt",
       "presentation": {
         "reveal": "always",
         "panel": "new"
