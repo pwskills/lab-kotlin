@@ -1,4 +1,4 @@
-# neurolab-kotlin
+# lab-kotlin
 
 Command to run Hello.kt file:
 
